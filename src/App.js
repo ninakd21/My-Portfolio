@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 
 function App() {
   const [categories] = useState([
     {
-      name: 'about',
       name: 'resume',
     },
     { name: 'portfolio',
@@ -38,6 +38,7 @@ function App() {
           <ContactForm></ContactForm>
         )}
       </main>
+      <Footer></Footer>
     </div>
   );
 }

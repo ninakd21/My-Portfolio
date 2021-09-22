@@ -17,8 +17,7 @@ function Nav(props) {
 
   return (
     <header className="flex-row px-1">
-     
-      <img  data-testid="link" href="/"src={navImage} className="my-2" style={{ width: "20%" }} alt="logo" />
+      <img src={navImage} className="my-2" style={{ width: "20%" }} alt="logo" />
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
@@ -26,7 +25,7 @@ function Nav(props) {
               About me
             </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+          <li className={`mx-2  ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
           {categories.map((category) => (
