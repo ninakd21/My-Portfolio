@@ -4,8 +4,9 @@ main {
 	max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
-  --primary: #8c54ff;
+  --primary: #54a1c4;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #242323;

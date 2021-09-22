@@ -11,7 +11,8 @@ function App() {
       name: 'resume',
     },
     { name: 'portfolio',
-    description: 'Photos of grocery stores, food trucks, and other commercial projects'}
+    description: 'The top projects completed',
+  link: ' '}
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
