@@ -7,6 +7,7 @@ import ContactForm from './components/Contact';
 function App() {
   const [categories] = useState([
     {
+      name: 'about',
       name: 'resume',
     },
     { name: 'portfolio',
@@ -29,6 +30,7 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
+
             <Portfolio currentCategory={currentCategory}></Portfolio>
             <About></About>
           </>
