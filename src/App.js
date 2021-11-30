@@ -11,8 +11,8 @@ function App() {
       name: 'resume',
     },
     { name: 'portfolio',
-    description: 'The top projects completed',
-  link: ' '}
+    description: 'Current completed Projects',
+  link: 'https://github.com/ninakd21/My-Portfolio'}
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);

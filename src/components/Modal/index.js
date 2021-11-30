@@ -12,9 +12,9 @@ const Modal = ({ onClose, currentPhoto }) => {
           alt="current category"
         />
         <p>{description}</p>
-        <p> {link}</p>
+        <a class="button" href={link} role="button">Visit Website</a>
         <button type="button" onClick={onClose}>
-          Close this modal
+          Close
         </button>
       </div>
     </div>

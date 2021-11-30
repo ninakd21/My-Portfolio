@@ -26,7 +26,7 @@ const PhotoList = ({ category }) => {
     },
     {
       name: 'Run Buddy',
-      category: 'portfolip',
+      category: 'portfolio',
       description: 'A Web application that offers fitness training services.',
       link: 'https://ninakd21.github.io/run-buddy1/'
     },
@@ -34,25 +34,37 @@ const PhotoList = ({ category }) => {
       name: 'Deep Thoughts',
       category: 'portfolio',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      link: 'https://github.com/ninakd21/deep-thoughts'
+      link: 'https://warm-everglades-26440.herokuapp.com/'
     },
     {
       name: 'Budget Tracker',
       category: 'portfolio',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      link: 'https://ninakd21-bc45bda431.drafts.github.io/Budget-Tracker/'
+      link: 'https://mighty-lowlands-41660.herokuapp.com'
     },
     {
       name: 'Resume',
-      category: 'portfolio',
-      description: ' ',
+      category: 'resume',
+      description: '',
       link: 'https://ryanblessing.github.io/Group-project-1/'
     },
     {
-      name: 'Yellow macaw',
-      category: 'resume',
+      name: 'CodersOnly',
+      category: 'portfolio',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      link: 'https://ryanblessing.github.io/Group-project-1/'
+      link: 'https://safe-inlet-86070.herokuapp.com'
+    },
+    {
+      name: 'CodersOnly',
+      category: 'portfolio',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      link: 'https://safe-inlet-86070.herokuapp.com'
+    },
+    {
+      name: 'DeepThoughts',
+      category: 'portfolio',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      link: 'https://warm-everglades-26440.herokuapp.com/'
     }
   ]);
 
