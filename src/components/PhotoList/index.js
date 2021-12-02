@@ -31,16 +31,16 @@ const PhotoList = ({ category }) => {
       link: 'https://ninakd21.github.io/run-buddy1/'
     },
     {
-      name: 'Deep Thoughts',
+      name: 'CodersOnly',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      link: 'https://warm-everglades-26440.herokuapp.com/'
+      description: 'This is an app that allows users to post and update blogs about any tech topic in the world.. It also lets users see and interact with other users blogs on the app.',
+      link: 'https://safe-inlet-86070.herokuapp.com'
     },
     {
       name: 'Budget Tracker',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      link: 'https://mighty-lowlands-41660.herokuapp.com'
+      description: ' The user can add expenses and deposits to their budget with or without a connection.It allows for offline access and functionality.If the user enters transactions offline, the transaction will be updated when they are brought back online.',
+      link: 'https://easybudgettracker.herokuapp.com'
     },
     {
       name: 'Resume',
@@ -49,21 +49,21 @@ const PhotoList = ({ category }) => {
       link: 'https://ryanblessing.github.io/Group-project-1/'
     },
     {
-      name: 'CodersOnly',
+      name: 'PuppyLove',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Puppy Love uses a Google Places API to filter locations of pet friendly resteraunts and stores, it also provides a safe place for pets and pet owners to connect!',
       link: 'https://safe-inlet-86070.herokuapp.com'
     },
     {
-      name: 'CodersOnly',
+      name: 'Literary Connections',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Book search engine using MERN stack and a GraphQL API.',
       link: 'https://safe-inlet-86070.herokuapp.com'
     },
     {
-      name: 'DeepThoughts',
+      name: 'Social Network',
       category: 'portfolio',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Backend for a social network web application where users can share thoughts, react to friends’ thoughts, and create a friend list.',
       link: 'https://warm-everglades-26440.herokuapp.com/'
     }
   ]);
